@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background: green;
+  color: #fff;
+  font-weight: bold;
+}
+
+h1 {
+  color: orange;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 500px;
+}
