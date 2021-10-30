@@ -49,8 +49,10 @@ function renderGame() {
 }
 
 function newCard() {
-  let card = 6;
-  sum += card;
-  cards.push(card);
-  renderGame();
+  if (sum < 21) {
+    let card = getRandomCard();
+    sum += card;
+    cards.push(card);
+    renderGame();
+  }
 }
